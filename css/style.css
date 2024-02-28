@@ -16,26 +16,17 @@ h1 {
     font-size: 2.5em;
 }
 
-.star::after {
-  content: "";
-  display: block;
-  height: 3px;
-  width: 100px;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-  left: 20%;
+.card-img-top {
+    width: 250px;
 }
 
-.star::before {
-  content: "";
-  display: block;
-  height: 3px;
-  width: 100px;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-  right: 20%;
+.star .left, .star .right {
+    width: 150px;
+    height: 3px;
+}
+
+#portfolio .star::after, #portfolio .star::before {
+    background-color: black;
 }
 #-nav a,
 .navbar-toggler {
