@@ -3,7 +3,7 @@
 }
 
 .odd,
-#card-hero {
+#card-hero, #card-about {
   background-color: #1abc9c;
 }
 
